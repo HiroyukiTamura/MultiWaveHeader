@@ -1,10 +1,10 @@
 package com.scwang.wave.app.activity
 
 import android.os.Bundle
-import android.support.design.widget.BottomNavigationView.OnNavigationItemSelectedListener
-import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentTransaction
-import android.support.v7.app.AppCompatActivity
+import com.google.android.material.bottomnavigation.BottomNavigationView.OnNavigationItemSelectedListener
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentTransaction
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import com.scwang.wave.app.R
 import com.scwang.wave.app.fragment.WaveConsoleFragment
