@@ -14,7 +14,6 @@ import java.util.*
  * Fragment 容器页面
  * Created by SCWANG on 2017/10/10.
  */
-
 class FragmentActivity : AppCompatActivity() {
     //</editor-fold>
 
@@ -40,7 +39,7 @@ class FragmentActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mFragmentClazz = intent.getStringExtra(EXTRA_FRAGMENT)
+        mFragmentClazz = intent.getStringExtra(EXTRA_FRAGMENT)!!
         val frameLayout = FrameLayout(this)
         frameLayout.id = widget_frame
         setContentView(frameLayout)
